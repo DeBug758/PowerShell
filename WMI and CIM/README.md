@@ -9,7 +9,7 @@
 * Installed hot fixes
 * List of stopped services
 
-# Solution
+### Solution
 
 ```$spooler = Get-WmiObject -Query "SELECT * FROM win32_service WHERE name='Spooler'"```
 Creating a localhost server on Windows
